@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: aliceblue;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.content {
+  width: 80%;
+  margin: auto;
+}
+.content img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  margin: auto;
+}
+.place {
+  -webkit-box-shadow: 5px 5px 39px 5px rgba(0, 0, 0, 0.34);
+  box-shadow: 5px 5px 39px 5px rgba(0, 0, 0, 0.34);
+  overflow: hidden;
+  border-radius: 15px;
+  width: 60%;
+  margin: auto;
+  background-color: #fff;
+  margin: 4rem auto;
+  padding-bottom: 1em;
+  transition: transform 0.5s ease-in-out;
+}
+.place p {
+  width: 80%;
+}
+.place .text {
+  width: 80%;
+  margin: 1.5em auto;
+}
+.place .text div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 1.8em;
+}
+.place .text div h3 {
+  font-size: 1.8em;
+  color: rgb(29, 29, 29);
+}
+.place .text div span {
+  transform: translateX();
+  padding: 0.2em;
+  font-weight: bold;
+  color: rgb(110, 110, 252);
+  background-color: rgb(213, 213, 252);
+  border-radius: 5px;
+}
+.place .text p {
+  color: rgb(121, 121, 121);
+  line-height: 1.4em;
+  display: inline;
+}
+.readmore {
+  color: rgb(110, 110, 252);
+  cursor: pointer;
+  display: inline;
+  margin-left: 2em;
+}
+.place button {
+  display: block;
+  width: 30%;
+  margin: auto;
+  outline: none;
+  background-color: #fff;
+  color: rgb(190, 20, 54);
+  border-color: rgba(190, 20, 54, 0.589);
+  border-radius: 5px;
+  border-width: 1px;
+  padding: 0.5em 0em;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.loader img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+.title {
+  text-align: center;
+  font-size: 2em;
+  color: rgb(29, 29, 29);
+  margin-top: 2em;
+}
+.underline {
+  content: "";
+  width: 100px;
+  height: 5px;
+  background-color: rgb(43, 0, 112);
+  margin: auto;
+}
