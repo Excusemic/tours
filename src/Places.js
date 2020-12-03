@@ -42,7 +42,7 @@ const Places = () => {
   if (isLoading) {
     return (
       <div className="loader">
-        <img src={loader}></img>
+        <img src={loader} alt="loading..."></img>
       </div>
     )
   }

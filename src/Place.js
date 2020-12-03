@@ -4,7 +4,7 @@ const Place = ({ image, name, price, info, handleRemove, id }) => {
   const [readmore, setReadMore] = useState(false)
   return (
     <div className="place">
-      <img src={image} alt="tour image" />
+      <img src={image} alt="tour" />
       <div className="text">
         <div>
           <h3>{name}</h3>
